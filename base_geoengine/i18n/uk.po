@@ -216,3 +216,211 @@ msgstr "Подання"
 #: code:addons/base_geoengine/static/src/js/views/geoengine/geoengine_controller/geoengine_controller.esm.js:0
 msgid "Warning"
 msgstr "Попередження"
+
+#. module: base_geoengine
+#: model:ir.model.fields,field_description:base_geoengine.field_geoengine_vector_layer__attribute_field_id
+msgid "Attribute field"
+msgstr "Поле атрибута"
+
+#. module: base_geoengine
+#: model:ir.model.fields.selection,name:base_geoengine.selection__geoengine_vector_layer__geo_repr__basic
+msgid "Basic"
+msgstr "Базовий"
+
+#. module: base_geoengine
+#: model:ir.model.fields.selection,name:base_geoengine.selection__geoengine_vector_layer__classification__custom
+msgid "Custom"
+msgstr "Користувацький"
+
+#. module: base_geoengine
+#: model:ir.model.fields,field_description:base_geoengine.field_ir_ui_view__default_extent
+msgid "Default map extent"
+msgstr "Типова область карти"
+
+#. module: base_geoengine
+#: model:ir.model.fields,field_description:base_geoengine.field_ir_ui_view__default_zoom
+msgid "Default map zoom"
+msgstr "Типовий масштаб карти"
+
+#. module: base_geoengine
+#. odoo-javascript
+#: code:addons/base_geoengine/static/src/js/views/geoengine/geoengine_controller/geoengine_controller.xml:0
+msgid "Discard"
+msgstr "Відкинути"
+
+#. module: base_geoengine
+#: model:ir.model.fields.selection,name:base_geoengine.selection__geoengine_raster_layer__raster_type__d_wms
+msgid "Distant WMS"
+msgstr "Віддалена WMS"
+
+#. module: base_geoengine
+#: model:ir.model.fields,field_description:base_geoengine.field_geoengine_vector_layer__end_color
+msgid "End color class"
+msgstr "Клас кінцевого кольору"
+
+#. module: base_geoengine
+#: model_terms:ir.ui.view,arch_db:base_geoengine.geo_raster_view_form
+#: model_terms:ir.ui.view,arch_db:base_geoengine.geo_vector_geoengine_view_form
+#: model_terms:ir.ui.view,arch_db:base_geoengine.geo_vector_view_form
+msgid "General"
+msgstr "Загальний"
+
+#. module: base_geoengine
+#: model_terms:ir.ui.view,arch_db:base_geoengine.geoengine_view_form
+msgid "GeoEngine Data"
+msgstr "Дані GeoEngine"
+
+#. module: base_geoengine
+#: model:ir.model.fields,field_description:base_geoengine.field_geoengine_raster_layer__write_uid
+#: model:ir.model.fields,field_description:base_geoengine.field_geoengine_raster_layer_type__write_uid
+#: model:ir.model.fields,field_description:base_geoengine.field_geoengine_vector_layer__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: base_geoengine
+#: model:ir.model.fields,field_description:base_geoengine.field_geoengine_raster_layer__write_date
+#: model:ir.model.fields,field_description:base_geoengine.field_geoengine_raster_layer_type__write_date
+#: model:ir.model.fields,field_description:base_geoengine.field_geoengine_vector_layer__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: base_geoengine
+#: model:ir.model.fields,field_description:base_geoengine.field_geoengine_vector_layer__layer_opacity
+msgid "Layer Opacity"
+msgstr "Непрозорість шару"
+
+#. module: base_geoengine
+#: model:ir.model.fields,field_description:base_geoengine.field_geoengine_vector_layer__sequence
+msgid "Layer Priority"
+msgstr "Пріоритет шару"
+
+#. module: base_geoengine
+#: model_terms:ir.ui.view,arch_db:base_geoengine.geo_raster_view_form
+msgid "Layer data"
+msgstr "Дані шару"
+
+#. module: base_geoengine
+#: model:ir.model.fields,field_description:base_geoengine.field_geoengine_raster_layer__sequence
+msgid "Layer priority"
+msgstr "Пріоритет шару"
+
+#. module: base_geoengine
+#: model:ir.model.fields.selection,name:base_geoengine.selection__ir_model_fields__geo_type__linestring
+msgid "LineString"
+msgstr "Лінія"
+
+#. module: base_geoengine
+#: model:ir.model.fields,field_description:base_geoengine.field_geoengine_vector_layer__model_domain
+msgid "Model Domain"
+msgstr "Домен моделі"
+
+#. module: base_geoengine
+#: model:ir.model.fields,field_description:base_geoengine.field_geoengine_vector_layer__model_id
+msgid "Model to use"
+msgstr "Модель для використання"
+
+#. module: base_geoengine
+#: model:ir.model.fields.selection,name:base_geoengine.selection__ir_model_fields__geo_type__multipoint
+msgid "MultiPoint"
+msgstr "Мультиточка"
+
+#. module: base_geoengine
+#: model:ir.model.fields.selection,name:base_geoengine.selection__ir_model_fields__geo_type__multipolygon
+msgid "MultiPolygon"
+msgstr "Мультиполігон"
+
+#. module: base_geoengine
+#: model:ir.model.fields,field_description:base_geoengine.field_geoengine_vector_layer__nb_class
+msgid "Number of class"
+msgstr "Кількість класів"
+
+#. module: base_geoengine
+#: model:ir.model.fields.selection,name:base_geoengine.selection__geoengine_raster_layer__raster_type__odoo
+msgid "Odoo field"
+msgstr "Поле Odoo"
+
+#. module: base_geoengine
+#: model:ir.model.fields.selection,name:base_geoengine.selection__ir_model_fields__geo_type__point
+msgid "Point"
+msgstr "Точка"
+
+#. module: base_geoengine
+#: model:ir.model.fields.selection,name:base_geoengine.selection__ir_model_fields__geo_type__polygon
+msgid "Polygon"
+msgstr "Полігон"
+
+#. module: base_geoengine
+#: model:ir.model.fields,field_description:base_geoengine.field_ir_model_fields__geo_type
+msgid "PostGIs type"
+msgstr "Тип PostGIs"
+
+#. module: base_geoengine
+#: model:ir.model.fields.selection,name:base_geoengine.selection__geoengine_vector_layer__classification__quantile
+msgid "Quantile"
+msgstr "Квантиль"
+
+#. module: base_geoengine
+#: model:ir.actions.act_window,name:base_geoengine.geo_engine_form_view_raster_action
+#: model:ir.actions.act_window,name:base_geoengine.geo_engine_view_rater_action
+#: model:ir.model,name:base_geoengine.model_geoengine_raster_layer
+msgid "Raster Layer"
+msgstr "Растровий шар"
+
+#. module: base_geoengine
+#: model:ir.model.fields,field_description:base_geoengine.field_ir_ui_view__raster_layer_ids
+msgid "Raster layers"
+msgstr "Растрові шари"
+
+#. module: base_geoengine
+#: model_terms:ir.ui.view,arch_db:base_geoengine.geo_vector_view_form
+msgid "Related Model"
+msgstr "Пов'язана модель"
+
+#. module: base_geoengine
+#: model_terms:ir.ui.view,arch_db:base_geoengine.geo_vector_geoengine_view_form
+#: model_terms:ir.ui.view,arch_db:base_geoengine.geo_vector_view_form
+msgid "Representation"
+msgstr "Представлення"
+
+#. module: base_geoengine
+#: model:ir.model.fields,field_description:base_geoengine.field_ir_ui_view__restricted_extent
+msgid "Restricted map extent"
+msgstr "Обмежена область карти"
+
+#. module: base_geoengine
+#. odoo-javascript
+#: code:addons/base_geoengine/static/src/js/views/geoengine/geoengine_controller/geoengine_controller.xml:0
+msgid "Save"
+msgstr "Зберегти"
+
+#. module: base_geoengine
+#: model:ir.model.fields.selection,name:base_geoengine.selection__geoengine_vector_layer__classification__unique
+msgid "Unique value"
+msgstr "Унікальне значення"
+
+#. module: base_geoengine
+#: model_terms:ir.ui.view,arch_db:base_geoengine.geo_vector_view_form
+msgid "Vector"
+msgstr "Вектор"
+
+#. module: base_geoengine
+#: model:ir.actions.act_window,name:base_geoengine.geo_engine_view_raster_action
+#: model:ir.actions.act_window,name:base_geoengine.geo_vector_geoengine_view_action
+#: model:ir.model,name:base_geoengine.model_geoengine_vector_layer
+msgid "Vector Layer"
+msgstr "Векторний шар"
+
+#. module: base_geoengine
+#: model:ir.model.fields,field_description:base_geoengine.field_ir_ui_view__vector_layer_ids
+msgid "Vector layers"
+msgstr "Векторні шари"
+
+#. module: base_geoengine
+#: model_terms:ir.ui.view,arch_db:base_geoengine.geo_raster_view_form
+msgid "WMS options"
+msgstr "Параметри WMS"
+
+#. module: base_geoengine
+#: model_terms:ir.ui.view,arch_db:base_geoengine.geo_raster_view_form
+msgid "WMTS options"
+msgstr "Параметри WMTS"
