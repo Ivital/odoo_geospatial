@@ -42,3 +42,41 @@ msgid ""
 msgstr ""
 "Публічний токен доступу Mapbox, що використовується віджетом Mapbox у формі."
 " Створіть токен на https://account.mapbox.com/."
+
+#. module: web_widget_mapbox
+#. odoo-javascript
+#: code:addons/web_widget_mapbox/static/src/mapbox_field.esm.js:0
+msgid "Mapbox Map"
+msgstr "Карта Mapbox"
+
+#. module: web_widget_mapbox
+#. odoo-javascript
+#: code:addons/web_widget_mapbox/static/src/mapbox_field.esm.js:0
+msgid "No map data to display."
+msgstr "Немає даних карти для відображення."
+
+#. module: web_widget_mapbox
+#. odoo-javascript
+#: code:addons/web_widget_mapbox/static/src/mapbox_field.esm.js:0
+msgid "Satellite"
+msgstr "Супутник"
+
+#. module: web_widget_mapbox
+#. odoo-javascript
+#: code:addons/web_widget_mapbox/static/src/mapbox_field.esm.js:0
+msgid ""
+"Set a Mapbox Token under Settings → General Settings → Integrations → Mapbox"
+" Token to display this map."
+msgstr ""
+"Встановіть токен Mapbox у Налаштування → Загальні налаштування → Інтеграції "
+"→ Токен Mapbox для відображення цієї карти."
+
+#. module: web_widget_mapbox
+#. odoo-javascript
+#: code:addons/web_widget_mapbox/static/src/mapbox_field.esm.js:0
+msgid ""
+"The Mapbox library could not be loaded. Check that this browser can reach "
+"api.mapbox.com."
+msgstr ""
+"Не вдалося завантажити бібліотеку Mapbox. Перевірте, чи має браузер доступ "
+"до api.mapbox.com."

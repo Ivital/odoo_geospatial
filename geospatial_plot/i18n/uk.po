@@ -371,3 +371,63 @@ msgstr "Це поле буде встановлено шляхом малюва�
 #: model:ir.model.fields,help:geospatial_plot.field_geospatial_plot__country_id
 msgid "Used to set map to draw plot on"
 msgstr "Використовується для вибору карти, на якій малювати ділянку"
+
+#. module: geospatial_plot
+#. odoo-python
+#: code:addons/geospatial_plot/models/res_partner.py:0
+msgid "%(display_name)s Plot #%(plot_count)d"
+msgstr "%(display_name)s Графік №%(plot_count)d"
+
+#. module: geospatial_plot
+#. odoo-javascript
+#: code:addons/geospatial_plot/static/src/components/map_widget/map_widget.esm.js:0
+msgid "Area Field"
+msgstr "Поле площі"
+
+#. module: geospatial_plot
+#. odoo-javascript
+#: code:addons/geospatial_plot/static/src/components/map_widget/map_widget.esm.js:0
+msgid "Circle draw inactive"
+msgstr "Малювання кола неактивне"
+
+#. module: geospatial_plot
+#. odoo-javascript
+#: code:addons/geospatial_plot/static/src/components/map_widget/map_widget.esm.js:0
+msgid "Marker draw inactive"
+msgstr "Малювання маркера неактивне"
+
+#. module: geospatial_plot
+#. odoo-python
+#: code:addons/geospatial_plot/models/res_partner.py:0
+msgid "New Plot Of %s"
+msgstr "Новий графік %s"
+
+#. module: geospatial_plot
+#. odoo-javascript
+#: code:addons/geospatial_plot/static/src/components/map_widget/map_widget.esm.js:0
+msgid "Polygone draw inactive"
+msgstr "Малювання полігона неактивне"
+
+#. module: geospatial_plot
+#. odoo-javascript
+#: code:addons/geospatial_plot/static/src/components/map_widget/map_widget.esm.js:0
+msgid "Polyline draw inactive"
+msgstr "Малювання ламаної неактивне"
+
+#. module: geospatial_plot
+#. odoo-javascript
+#: code:addons/geospatial_plot/static/src/components/map_widget/map_widget.esm.js:0
+msgid "Rectangle draw inactive"
+msgstr "Малювання прямокутника неактивне"
+
+#. module: geospatial_plot
+#. odoo-python
+#: code:addons/geospatial_plot/models/geospatial_plot.py:0
+msgid "Size of plot needs to be higher than 0."
+msgstr "Розмір графіка має бути більшим за 0."
+
+#. module: geospatial_plot
+#. odoo-javascript
+#: code:addons/geospatial_plot/static/src/components/map_widget/map_widget.esm.js:0
+msgid "The field which will have the area calculated"
+msgstr "Поле, для якого буде обчислено площу"
