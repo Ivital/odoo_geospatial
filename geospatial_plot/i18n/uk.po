@@ -261,3 +261,57 @@ msgstr "Прямокутник"
 #: model:ir.model.fields,field_description:geospatial_plot.field_res_users__total_acreage
 msgid "Total Plot Acreage"
 msgstr "Загальна площа ділянки"
+
+#. module: geospatial_plot
+#: model:ir.model.fields,field_description:geospatial_plot.field_res_config_settings__plot_uom_id
+msgid "Default Plot Unit of Measure"
+msgstr "Одиниця виміру ділянки за замовчуванням"
+
+#. module: geospatial_plot
+#: model:ir.model.fields,help:geospatial_plot.field_geospatial_plot__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
+
+#. module: geospatial_plot
+#: model:ir.model.fields,help:geospatial_plot.field_geospatial_plot__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
+
+#. module: geospatial_plot
+#: model_terms:ir.ui.view,arch_db:geospatial_plot.geospatial_plot_form
+msgid "Internal description of the plot..."
+msgstr "Внутрішній опис графіка..."
+
+#. module: geospatial_plot
+#: model:ir.model.fields,help:geospatial_plot.field_geospatial_plot__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Кількість повідомлень, що потребують дії"
+
+#. module: geospatial_plot
+#: model:ir.model.fields,help:geospatial_plot.field_geospatial_plot__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Кількість повідомлень із помилкою доставки"
+
+#. module: geospatial_plot
+#: model_terms:ir.ui.view,arch_db:geospatial_plot.geospatial_plot_form
+msgid "Plot Description"
+msgstr "Опис графіка"
+
+#. module: geospatial_plot
+#: model:ir.model.fields,field_description:geospatial_plot.field_geospatial_plot__plot_size_sqm
+msgid "Plot size in square meter"
+msgstr "Площа ділянки у квадратних метрах"
+
+#. module: geospatial_plot
+#: model_terms:ir.ui.view,arch_db:geospatial_plot.res_config_settings_view_form
+msgid "Set the unit of measure that the area of farms are measured."
+msgstr "Встановіть одиницю виміру площі господарств."
+
+#. module: geospatial_plot
+#: model:ir.model.fields,help:geospatial_plot.field_geospatial_plot__country_code
+msgid ""
+"The ISO country code in two chars. \n"
+"You can use this field for quick search."
+msgstr ""
+"Код країни ISO у двох символах.\n"
+"Ви можете використовувати це поле для швидкого пошуку."

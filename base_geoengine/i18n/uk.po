@@ -424,3 +424,98 @@ msgstr "Параметри WMS"
 #: model_terms:ir.ui.view,arch_db:base_geoengine.geo_raster_view_form
 msgid "WMTS options"
 msgstr "Параметри WMTS"
+
+#. module: base_geoengine
+#: model:ir.model.fields,field_description:base_geoengine.field_geoengine_vector_layer__active_on_startup
+msgid "Active On Startup"
+msgstr "Активувати під час запуску"
+
+#. module: base_geoengine
+#: model:ir.model.fields,field_description:base_geoengine.field_geoengine_vector_layer__attribute_field_id_domain
+msgid "Attribute Field Id Domain"
+msgstr "Домен ID поля атрибута"
+
+#. module: base_geoengine
+#: model:ir.model.fields,field_description:base_geoengine.field_geoengine_vector_layer__begin_color
+msgid "Begin color class"
+msgstr "Початковий клас кольору"
+
+#. module: base_geoengine
+#: model:ir.model.fields,field_description:base_geoengine.field_geoengine_vector_layer__classification
+msgid "Classification mode"
+msgstr "Режим класифікації"
+
+#. module: base_geoengine
+#: model:ir.model.fields,field_description:base_geoengine.field_ir_model_fields__gist_index
+msgid "Create gist index"
+msgstr "Створити індекс GiST"
+
+#. module: base_geoengine
+#: model:ir.model.fields,field_description:base_geoengine.field_geoengine_vector_layer__display_polygon_labels
+msgid "Display Labels on Polygon"
+msgstr "Показувати підписи на полігоні"
+
+#. module: base_geoengine
+#: model:ir.model.fields,field_description:base_geoengine.field_geoengine_raster_layer__overlay
+msgid "Is overlay layer?"
+msgstr "Це шар накладання?"
+
+#. module: base_geoengine
+#: model:ir.model.fields,field_description:base_geoengine.field_geoengine_vector_layer__layer_transparent
+msgid "Layer Transparent"
+msgstr "Прозорий шар"
+
+#. module: base_geoengine
+#: model:ir.model.fields,field_description:base_geoengine.field_geoengine_vector_layer__readonly
+msgid "Layer is read only"
+msgstr "Шар лише для читання"
+
+#. module: base_geoengine
+#: model_terms:ir.ui.view,arch_db:base_geoengine.geo_raster_view_form
+msgid "Odoo layer data (Not implemented)"
+msgstr "Дані шару Odoo (не реалізовано)"
+
+#. module: base_geoengine
+#: model:ir.model.fields,field_description:base_geoengine.field_geoengine_raster_layer__field_id
+msgid "Odoo layer field to use"
+msgstr "Поле шару Odoo для використання"
+
+#. module: base_geoengine
+#: model:ir.model.fields,field_description:base_geoengine.field_ir_model_fields__dim
+msgid "PostGIs Dimension"
+msgstr "Вимір PostGIS"
+
+#. module: base_geoengine
+#: model:ir.model.fields.selection,name:base_geoengine.selection__geoengine_vector_layer__geo_repr__proportion
+msgid "Proportional Symbol"
+msgstr "Пропорційний символ"
+
+#. module: base_geoengine
+#: model_terms:ir.ui.view,arch_db:base_geoengine.geoengine_view_form
+msgid "Raster (Background layers)"
+msgstr "Растр (фонові шари)"
+
+#. module: base_geoengine
+#: model_terms:ir.ui.view,arch_db:base_geoengine.geo_raster_view_form
+msgid "Raster Layer View"
+msgstr "Подання растрового шару"
+
+#. module: base_geoengine
+#: model:ir.model.fields,field_description:base_geoengine.field_geoengine_raster_layer__raster_type
+msgid "Raster layer type"
+msgstr "Тип растрового шару"
+
+#. module: base_geoengine
+#: model:ir.model.fields,field_description:base_geoengine.field_geoengine_vector_layer__geo_repr
+msgid "Representation mode"
+msgstr "Режим представлення"
+
+#. module: base_geoengine
+#: model:ir.model.fields,field_description:base_geoengine.field_geoengine_raster_layer__request_encoding
+msgid "Request encoding"
+msgstr "Кодування запиту"
+
+#. module: base_geoengine
+#: model_terms:ir.ui.view,arch_db:base_geoengine.geoengine_view_form
+msgid "Vector (Active layers)"
+msgstr "Вектор (активні шари)"
