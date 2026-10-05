@@ -519,3 +519,81 @@ msgstr "Кодування запиту"
 #: model_terms:ir.ui.view,arch_db:base_geoengine.geoengine_view_form
 msgid "Vector (Active layers)"
 msgstr "Вектор (активні шари)"
+
+#. module: base_geoengine
+#. odoo-javascript
+#: code:addons/base_geoengine/static/src/js/widgets/domain_selector_geo_field/domain_selector_field_input_with_tags/domain_selector_field_input_with_tags.xml:0
+msgid "Add tag"
+msgstr "Додати тег"
+
+#. module: base_geoengine
+#: model:ir.model.fields,help:base_geoengine.field_geoengine_raster_layer__params
+msgid "Dictiorary of values for dimensions as JSON"
+msgstr "Словник значень вимірів у JSON"
+
+#. module: base_geoengine
+#: model:res.groups,name:base_geoengine.group_geoengine_admin
+msgid "Geoengine Admin"
+msgstr "Адміністратор GeoEngine"
+
+#. module: base_geoengine
+#: model:res.groups,name:base_geoengine.group_geoengine_user
+msgid "Geoengine User"
+msgstr "Користувач GeoEngine"
+
+#. module: base_geoengine
+#: model:ir.model.fields,help:base_geoengine.field_geoengine_vector_layer__active_on_startup
+msgid "Layer will be shown on startup if checked."
+msgstr "Якщо позначено, шар відображатиметься під час запуску."
+
+#. module: base_geoengine
+#: model:ir.model.fields,help:base_geoengine.field_geoengine_raster_layer__dimensions
+msgid "List of dimensions separated by ','"
+msgstr "Список вимірів, розділених ','"
+
+#. module: base_geoengine
+#: model:ir.model.fields,help:base_geoengine.field_geoengine_raster_layer__params_wms
+msgid "Need to provide at least a LAYERS param"
+msgstr "Потрібно вказати щонайменше параметр LAYERS"
+
+#. module: base_geoengine
+#: model:ir.model,name:base_geoengine.model_geoengine_raster_layer_type
+msgid "Raster Layer Type"
+msgstr "Тип растрового шару"
+
+#. module: base_geoengine
+#. odoo-javascript
+#: code:addons/base_geoengine/static/src/js/widgets/domain_selector_geo_field/domain_selector_field_input_with_tags/domain_selector_field_input_with_tags.xml:0
+msgid "Remove tag"
+msgstr "Видалити тег"
+
+#. module: base_geoengine
+#. odoo-javascript
+#: code:addons/base_geoengine/static/src/js/views/geoengine/records_panel/search_bar_records/search_bar_records.xml:0
+msgid "Search..."
+msgstr "Пошук..."
+
+#. module: base_geoengine
+#: model:ir.model.fields,help:base_geoengine.field_geoengine_raster_layer__server_type
+msgid ""
+"The type of the remote WMS server: mapserver,             geoserver, "
+"carmentaserver, or qgis"
+msgstr ""
+"Тип віддаленого WMS-сервера: mapserver,             geoserver, "
+"carmentaserver або qgis"
+
+#. module: base_geoengine
+#: model:ir.model.fields,help:base_geoengine.field_geoengine_raster_layer__request_encoding
+msgid "eg. REST"
+msgstr "напр. REST"
+
+#. module: base_geoengine
+#: model:ir.model.fields,help:base_geoengine.field_geoengine_raster_layer__units
+msgid "eg. m"
+msgstr "напр. м"
+
+#. module: base_geoengine
+#: model:ir.model.fields,help:base_geoengine.field_geoengine_vector_layer__begin_color
+#: model:ir.model.fields,help:base_geoengine.field_geoengine_vector_layer__end_color
+msgid "hex value"
+msgstr "шістнадцяткове значення"

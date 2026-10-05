@@ -315,3 +315,59 @@ msgid ""
 msgstr ""
 "Код країни ISO у двох символах.\n"
 "Ви можете використовувати це поле для швидкого пошуку."
+
+#. module: geospatial_plot
+#: model:uom.uom,name:geospatial_plot.uom_surface_acre
+msgid "Acres"
+msgstr "Акри"
+
+#. module: geospatial_plot
+#: model:res.groups,name:geospatial_plot.group_plot_manager
+msgid "GeoSpatial - Plot Manager"
+msgstr "Геопростір — менеджер ділянок"
+
+#. module: geospatial_plot
+#: model:ir.model,name:geospatial_plot.model_geospatial_plot
+msgid "Geospatial Plot"
+msgstr "Геопросторова ділянка"
+
+#. module: geospatial_plot
+#: model:uom.uom,name:geospatial_plot.uom_surface_hectare
+msgid "Hectares"
+msgstr "Гектари"
+
+#. module: geospatial_plot
+#: model:ir.model.fields,help:geospatial_plot.field_geospatial_plot__partner_address_id
+msgid "If the plot has its own address, separate from the using partner"
+msgstr ""
+"Якщо ділянка має власну адресу, відмінну від адреси партнера-користувача"
+
+#. module: geospatial_plot
+#: model:ir.model.fields,help:geospatial_plot.field_geospatial_plot__plot_size
+msgid "Plot size in selected unit of measurement"
+msgstr "Розмір ділянки у вибраній одиниці виміру"
+
+#. module: geospatial_plot
+#: model:ir.model.fields,help:geospatial_plot.field_geospatial_plot__owner_id
+msgid "The partner owning the plot"
+msgstr "Партнер-власник ділянки"
+
+#. module: geospatial_plot
+#: model:ir.model.fields,help:geospatial_plot.field_geospatial_plot__partner_id
+msgid "The partner using the plot"
+msgstr "Партнер, який використовує ділянку"
+
+#. module: geospatial_plot
+#: model:ir.model.fields,help:geospatial_plot.field_geospatial_plot__plot_polygon
+msgid "This field contains the actual plot coordinates"
+msgstr "Це поле містить фактичні координати ділянки"
+
+#. module: geospatial_plot
+#: model:ir.model.fields,help:geospatial_plot.field_geospatial_plot__plot_size_sqm
+msgid "This field will be set by drawing the plot"
+msgstr "Це поле буде встановлено шляхом малювання ділянки"
+
+#. module: geospatial_plot
+#: model:ir.model.fields,help:geospatial_plot.field_geospatial_plot__country_id
+msgid "Used to set map to draw plot on"
+msgstr "Використовується для вибору карти, на якій малювати ділянку"
